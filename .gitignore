@@ -1,0 +1,6 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_output.json
+
+# Python
+__pycache__/
