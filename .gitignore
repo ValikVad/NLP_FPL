@@ -1,6 +1,10 @@
+.gitignore
+
 # Jupyter Notebook
 .ipynb_checkpoints/
 *.ipynb_output.json
 
+
 # Python
-__pycache__/
+__pycache__
+/venv/
