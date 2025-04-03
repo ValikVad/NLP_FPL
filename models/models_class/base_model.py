@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class SalaryPredictor(nn.Module):
-    def __init__(self, n_tokens: int, n_cat_features: int, hid_size: int = 64):
+    def __init__(self, n_tokens: int , n_cat_features: int , hid_size: int = 64):
         super().__init__()
         
         # Title Encoder
